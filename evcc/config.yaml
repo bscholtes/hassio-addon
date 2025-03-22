@@ -32,8 +32,12 @@ map:
     read_only: False
   - type: homeassistant_config
     read_only: False
+  config: /config
+  machine_id: /etc/machine-id
+  custom_file: /etc/my_custom_file.conf
+
 uart: true
-webui: http://[HOST]:[PORT:7070]/
+webui: http://homeassistant.fritz.box:7070
 ports:
   4712/tcp: 4712
   5200/tcp: 5200
