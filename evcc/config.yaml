@@ -35,7 +35,6 @@ map:
   config: /config
   machine_id: /etc/machine-id
   custom_file: /etc/my_custom_file.conf
-
 uart: true
 webui: http://homeassistant.fritz.box:7070
 ports:
